@@ -19,7 +19,7 @@ class hello_world(pcbnew.ActionPlugin):
     def Run(self):
         
         plugin_dir = Path(__file__).resolve().parent
-        html_path = plugin_dir / "K.I.R.-Kicad-Ibom-Reorder" / "KIR_V2.html"
+        html_path = plugin_dir / "KIR" / "KIR_V2.html"
         
         if not html_path.exists():
             wx.MessageBox(f"Erreur : Fichier introuvable à \n{html_path}", "Erreur")

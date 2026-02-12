@@ -1,8 +1,8 @@
 {
     "$schema": "https://go.kicad.org/pcm/schemas/v1",
-    "name": "Kicad Ibom Reorder Plugin!",
-    "description": "Open KIR",
-    "description_full": "This is a plugin made for reorder an Kicad IBOM.",
+    "name": "K.I.R",
+    "description": "Kicad Ibom Reorder",
+    "description_full": "This plugin is made for reorder an Ibom.",
     "identifier": "com.github.KIR",
     "type": "plugin",
     "author": {
